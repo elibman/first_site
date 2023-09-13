@@ -28,5 +28,10 @@ p{
 
 }
 ul{
-    background-color: green;
+    color: green;
+    font-family: Verdana;
+}
+
+ul a{
+    color: green;
 }
