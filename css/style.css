@@ -1,12 +1,27 @@
+body{
+    background-color:beige;
+}
+
 h1{
     background-color: #5ba300;
     color: #cfebb6;
     font-family: 'Verdana';
     font-size: pt25;
+    padding: 20px;
     border: solid #cfebb6;
     border-width: 5px 20px;
     text-align: center;
 }
+
+.skip a{
+    position: absolute;
+    margin-top: -40px;
+}
+
+.skip a:focus{
+    margin-top: 20px;
+}
+
 h2{
     color: #029356;
     font-family: 'Verdana';
@@ -28,10 +43,45 @@ p{
 
 }
 ul{
-    color: green;
+    color: #cfebb6;
     font-family: Verdana;
+    text-align: center;
+    padding: 20px;
+    border: solid burlywood;
+    border-width: 5px 400px;
+    background: moccasin;
 }
 
 ul a{
-    color: green;
+    color: #029356;
+    font-family: Verdana;
 }
+
+ul a:hover{
+    color: black;
+}
+
+ul li{
+    display: inline-block;
+    margin-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #029356;
+}
+
+.column{
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.first{
+    display:block;
+    align-items: center;
+}
+
+/* .first{
+    float:left;
+    width: 50%;
+    padding: 10px;
+} */
